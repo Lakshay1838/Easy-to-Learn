@@ -32,11 +32,14 @@
     height: 700px;
 }
 .material-section{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    display: flex;
 }
 .want-to-study{
     width: 20%;
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    padding: 20px;
 }
 .want-to-study h3{
     font-size: 70px;
@@ -46,7 +49,58 @@
     /* margin-left: 0px; */
 }
 .classes-sections{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: inline-block;
     width: 79%;
+    padding: 20px;
+}
+.class-inside-class-section{
+    /* padding-left: 75px; */
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 0 solid transparent;
+    /* border-bottom: 10px solid #000;  Adjust color here */
+  }
+/* //chatgpt */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+} */
+
+.styled-div {
+    width: 170px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.styled-div2{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 45px;
+    margin: 17px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.styled-div2:hover{
+    padding: 55px;
+    transition: padding 0.5s ease 0.3s;
 }
