@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aLink{
+    padding: 1px 10px;
+    /* border: 1px solid black; */
+    margin: 0px 10px;
+    font-size: 1.3rem;
+}
+.logo{
+    width: 10%;
+}
+.headerImg{
+    width: 90%;
+}
+.navigation{
+    /* border: 2px solid black; */
+    /* height: auto; */
+    height: 50px;
+    display: flex; 
+    justify-content: center; 
+    padding: 8px;
+}
+.search{
+    padding: 10px;
+}
+.search-input{
+    font-size: 15px;
+}
+.header{
+    border: 2px solid blue;
+    display: flex;
+    /* column-gap: normal; */
+    /* gap: auto; */
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+/* common classes  */
+.inline{
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+/* .header-height{
+    height: 60px;
+} */
+ 
