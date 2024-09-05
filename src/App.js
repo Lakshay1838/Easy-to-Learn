@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import {HashRouter} form "react-router-dom";
 import './App.css';
 import Header2 from './header2';
 import Home from './HomeSection/homeSection';
