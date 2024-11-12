@@ -1,4 +1,5 @@
 import ClassButton from "./ClassButton";
+
 export default function WantToStudy(){
     return (
         <div className=" bg-slate-400 px-20 py-14 flex space-x-96">
@@ -11,5 +12,5 @@ export default function WantToStudy(){
                 <ClassButton Standard = "10"/>
             </div>
         </div>
-    );
+    )
 }
