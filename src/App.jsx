@@ -14,6 +14,9 @@ import ContactUs from "./components/ContactUs/contact";
 import More from "./components/More/More";
 
 
+// 
+import SheetButtonInside from "./components/Home/formulaSheetSection/sheetButtonInside";
+
 
 
 export default function App() {
@@ -21,6 +24,7 @@ export default function App() {
 
         <Router>
             <Header />
+            <SheetButtonInside/>
             <Routes>
                 <Route path='/' element={
                     <>
