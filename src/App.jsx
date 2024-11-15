@@ -12,26 +12,23 @@ import Class10 from "./components/Home/ClassPages/Class10";
 
 import ContactUs from "./components/ContactUs/contact";
 import More from "./components/More/More";
-
-
-// 
+ 
 import SheetButtonInside from "./components/Home/formulaSheetSection/sheetButtonInside";
-
 
 
 export default function App() {
     return (
 
+
         <Router>
             <Header />
-            <SheetButtonInside/>
+            {/* <SheetButtonInside/> */}
             <Routes>
                 <Route path='/' element={
                     <>
                         <ImagesSection />
                         <WantToStudy />
                         <FormulaSheets />
-                        <ContactUs/>    
                     </>
                 }
                 />
@@ -40,6 +37,7 @@ export default function App() {
                 <Route path='/class9' element={<Class9 />} />
                 <Route path='/class10' element={<Class10 />} />
             </Routes>
+            <ContactUs/>    
             {/* <More/> */}
         </Router>
     );
